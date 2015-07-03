@@ -1,0 +1,529 @@
+body{
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+/*--------------------------HEADER------------------------------------------*/
+.header{
+	width: 1400px;
+	height: 115px;
+	background: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.logo{
+	float: left;
+	font-size: 36px;
+	width: 478px;
+}
+.logo p{
+	font-size: 36px;
+	padding-left: 190px;
+	font-family: FuturaBookC;
+	margin-top: 47px;
+}
+.company{
+	color: #ee8129;
+}
+.name_company{
+	color: #3070a8;
+	text-transform: uppercase;
+	font-family: FuturaDemiC;
+}
+.menu{
+	float:right;
+	width: 920px;
+
+}
+.menu ul{
+	padding-right: 59px;
+	margin:0;
+}
+.menu li{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	font-family: "Open Sans";
+	text-transform: uppercase;
+	margin-top: 64px;
+	color: #989898;
+}
+.menu li:hover{
+	color: #3070a8;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #3070a8;
+}
+/*-------------------------------BANNER----------------------------------*/
+
+.banner{
+	width: 1400px;
+	height: 584px;
+	background-image: url(image/banner.jpg);
+}
+.description{
+	font-family: FuturaBookC;
+	font-size: 36px;
+	color: white;
+	margin:0;
+	padding-top: 149px;
+	text-align: center;
+}
+.description_big{
+	font-family: FuturaDemiC;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: white;
+	margin:0;
+	text-align: center;
+}
+.description_lit{
+	font-family: Calibri;
+	font-style: italic;
+	font-size: 20px;
+	color: white;
+	margin:0;
+	text-align: center;
+	padding-top: 33px;
+}
+.button{
+	margin-left: 570px;
+	margin-top: 43px;
+}
+.button_name{
+	width: 248px;
+	height: 60px;
+	border: 1px solid white;
+	outline: none;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.button_name:active{
+	color: red;
+}
+/*--------------------------------ADVANTAGES---------------------*/
+.advantages{
+	width: 1400px;
+	height: 566px;
+}
+h2{
+	font-size: 30px;
+	font-family: "Trebuchet MS";
+	text-align: center;
+	text-transform: uppercase;
+	color: #41525c;
+	padding-top: 71px;
+}
+.adv_descript{
+	width: 1100px;
+	height: 427px;
+	margin-top: 78px;
+	margin-left: 180px;
+}
+.protect,
+.alert,
+.detect{
+	width: 340px;
+	height: 345px;
+	float: left;
+}
+.alert,
+.detect{
+	margin-left: 25px;
+}
+img{
+	margin-left: 97px;
+}
+.advatag{
+	font-family: FuturaBookC;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #3070a8;
+	margin: 0;
+	margin-top: 33px;
+}
+.descript{
+	font-size: 14px;
+	font-family: "Open Sans";
+	color: #999999;
+	text-align: center;
+	line-height: 1.5;
+	margin-top: 25px;
+}
+/*--------------------------CONTENT----------------------------*/
+.content{
+	width: 1400px;
+	height: 579px;
+	background-image: url(image/content.png);
+}
+.con{
+	font-family: FuturaBookC;
+	font-size: 26px;
+	color: #ee8129;
+	text-transform: uppercase;
+	line-height: 1.5;
+	padding-top: 90px;
+	margin-left: 180px;
+}
+.cont{
+	font-family: "Open Sans";
+	font-style: italic;
+	font-size: 19px;
+	color: #ffffff;
+	margin-top: 26px;
+	margin-left: 180px;
+}
+.content_decript{
+	font-family: "Open Sans";
+	font-size: 14px;
+	line-height: 2;
+	color: #9d9d9d;
+	margin-left: 185px;
+	margin-top: 47px;
+	text-align: justify;
+}
+.content_decript li:nth-child(2){
+	color: #3070a8;
+}
+/*--------------------------------OFFERS----------------*/
+.offers{
+	width: 1400px;
+	height: 707px;
+	font-family: "Trebuchet MS";
+}
+.choose{
+	font-size: 30px;
+	color: #41525c;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 79px;
+	margin: 0;
+}
+.block{
+	width: 860px;
+	height: 495px;
+	margin-left: 250px;
+}
+/*Block Standart*/
+.block_standart{
+	width: 291px;
+	height: 442px;
+	margin: auto;
+	margin-top: 77px;
+	background-color: white;
+	border-radius: 7px;
+	border: 1px solid #e8eaec;
+	position: static;
+	float: left;
+}
+.head_standart{
+	width: 291px;
+	height: 63px;
+	border-radius: 7px 7px 0px 0px;
+	background-color: #37c2d3;
+}
+.standart{
+	font-size: 24px;
+	color: #e8eaec;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 63px;
+	margin: 0;
+	padding: 0;
+}
+.main_standart{
+	width: 291px;
+	height: 377px;
+	background-color: white;
+}
+.iconic_standart{
+	color: #e8eaec;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+	margin:0;
+	padding-top: 22px;
+}
+.price_standart{
+	color: rgb(53,73,90);
+	text-align: center;
+	margin: 0;
+	padding-top: 15px;
+}
+.button_standart{
+	width: 252px;
+	height: 38px;
+	background-color: #3371a6;
+	border-radius: 7px;
+	padding: 0;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 7px;
+	border: none;
+	outline: none;
+	box-shadow: 0px 5px #16436a;
+	cursor: pointer;
+}
+/*Block BEST VALUE*/
+.block_best{
+	width: 296px;
+	height: 468px;
+	margin-left: 282px;
+	margin-top: 65px;
+	background-color: rgb(238,129,41);
+	border-radius: 7px;
+	position: absolute;
+	z-index: 1;
+	box-shadow: 0px 0px 9px 2px #cbe2ef;
+}
+.head_best{
+	width: 296px;
+	height: 77px;
+}
+.best{
+	font-size: 24px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 77px;
+	margin: 0;
+	padding: 0;
+}
+.main_best{
+	width: 288px;
+	height: 387px;
+	background-color: white;
+	margin-left: 4px;
+}
+.iconic_best{
+	color: rgb(89,89,91);
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+	margin:0;
+	padding-top: 22px;
+}
+.price_best{
+	color: rgb(53,73,90);
+	text-align: center;
+	margin: 0;
+	padding-top: 15px;
+}
+.dollar{
+	font-size: 36px;
+	vertical-align: top;
+	font-weight: bold;
+}
+.price{
+	font-size: 72px;
+	font-weight: bold;
+	letter-spacing: -7px;
+}
+.month{
+	font-size: 18px;
+	font-weight: bold;
+	vertical-align: bottom;
+}
+.list{
+	width: 259px;
+	padding: 0;
+	margin: auto;
+	padding-top: 20px;
+}
+.list li{
+	width: 226px;
+	height: 33px;
+	color: #888c94;
+	list-style-type: none;
+	padding-left: 33px;
+	margin: 1px;
+	line-height: 33px;
+}
+.list li::before{
+	content: url(image/task2_03.png);
+	padding-right: 16px;
+}
+.list li:nth-child(odd) {
+    background: #edf5fd;
+}
+.list li:nth-child(even) {
+    background: #f5f5f6;
+}
+.button{
+	width: 252px;
+	height: 37px;
+	margin: auto;
+	margin-top: 18px;
+}
+.button_best{
+	width: 252px;
+	height: 38px;
+	background-color: #ee8129;
+	border-radius: 7px;
+	padding: 0;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 7px;
+	border: none;
+	outline: none;
+	box-shadow: 0px 5px #b3560b;
+	cursor: pointer;
+}
+.button_best:active{
+	background-color:#b3560b;
+	box-shadow: none;
+}
+/*Block Ultimate*/
+.block_ultimate{
+	width: 291px;
+	height: 442px;
+	margin: auto;
+	margin-top: 77px;
+	background-color: white;
+	border-radius: 7px;
+	border: 1px solid #e8eaec;
+	position: static;
+	float: right;
+}
+.head_ultimate{
+	width: 291px;
+	height: 63px;
+	border-radius: 7px 7px 0px 0px;
+	background-color: #1cb79a;
+}
+.ultimate{
+	font-size: 24px;
+	color: #e8eaec;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 63px;
+	margin: 0;
+	padding: 0;
+}
+.main_ultimate{
+	width: 291px;
+	height: 377px;
+	background-color: white;
+}
+.iconic_ultimate{
+	color: #3f4042;
+	text-transform: uppercase;
+	font-size: 24px;
+	text-align: center;
+	margin:0;
+	padding-top: 22px;
+}
+.price_ultimate{
+	color: rgb(53,73,90);
+	text-align: center;
+	margin: 0;
+	padding-top: 15px;
+}
+.list .list_ultimate{
+	color:#1cb79a;
+}
+.button_ultimate{
+	width: 252px;
+	height: 38px;
+	background-color: #3371a6;
+	border-radius: 7px;
+	padding: 0;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 7px;
+	border: none;
+	outline: none;
+	box-shadow: 0px 5px #16436a;
+	cursor: pointer;
+}
+.button_standart:active,
+.button_ultimate:active{
+	background-color:#16436a;
+	box-shadow: none;
+}
+/*----------------------------COMMENT------------------------*/
+.comment{
+	width: 1400px;
+	height: 315px;
+	font-family: "Trebuchet MS";
+	background-image: url(image/Photo.png);
+}
+.client_says{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #3170a8;
+	text-align: center;
+	padding-top: 60px;
+	margin: 0;
+}
+.client_says span{
+	color: #ee8129;
+}
+.comment_girl img,
+.comment_boy img{
+	margin-left: 0;
+}
+.comment_girl{
+	width: 490px;
+	height: 99px;
+	float:left;
+	margin-left: 191px;
+	margin-top: 52px;
+}
+.comment_boy{
+	width: 490px;
+	height: 99px;
+	float:right;
+	margin-right: 189px;
+	margin-top: 52px;
+}
+.block_comment{
+	background: white;
+	position: relative;
+	width: 360px;
+	height: 98px;
+	float: right;
+}
+.block_comment::before{
+	content: ''; 
+    position: absolute;
+    left: -29px; 
+    top: 40px;
+    border: 15px solid transparent;
+    border-right: 15px solid white;
+}
+.name{
+	color: #3070a8;
+	float: left;
+	padding-left: 15px;
+}
+.desc{
+	color: #3070a8;
+	float: right;
+	padding-right: 15px;
+}
+hr{
+	border: 1px dashed #666666;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.block1, .block2{
+	font-size: 13px;
+	font-style: italic;
+}
+.block2{
+	padding-left: 15px;
+	padding-right: 15px;
+}
