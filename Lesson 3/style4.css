@@ -1,0 +1,13 @@
+a{
+	font-size: 20px;
+}
+a[href*="ya"]{
+	color: #f70;
+}
+a[href*="maps.yandex"]:after{
+	content:"\21F1";
+  	transform: rotate(90deg);
+}
+a[href*="goog"]{
+	color:#666;
+}

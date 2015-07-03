@@ -1,0 +1,42 @@
+input{
+	display: none;
+}
+#red ~ label[for="red"]{
+	color: red;
+	cursor: pointer;
+	text-decoration: underline;
+}
+#blue ~ label[for="blue"]{
+	color: blue;
+	cursor: pointer;
+	text-decoration: underline;
+}
+#green ~ label[for="green"]{
+	color: green;
+	cursor: pointer;
+	text-decoration: underline;
+}
+.red{
+	color: white;
+	background-color: red;
+	border-radius: 5px;
+}
+.blue{
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+}
+.green{
+	color: white;
+	background-color: green;
+	border-radius: 5px;
+}
+#red:checked ~ .red{
+	display: none;
+}
+#blue:checked ~ .blue{
+	display: none;
+}
+#green:checked ~ .green{
+	display: none;
+}
