@@ -1,0 +1,43 @@
+
+div{
+	width: 600px;
+	height: 40px;
+	background-color: rgb(249,250,252);
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin:auto;
+}
+#pagger{
+	list-style-type: none;
+}
+#pagger li{
+	display: inline-block;
+	color: rgb(161,59,207);
+	padding: 12px 5px;
+}
+#pagger .number a{
+	text-decoration: none;
+	color: rgb(161,59,207);
+	padding: 5px 10px;
+	border: 1px solid rgb(221,221,221);
+	border-radius: 5px;
+}
+#pagger .number a:hover{
+	background-color:rgb(166,77,255);
+	color: white;
+	border-radius:5px;
+}
+#pagger .number_before a, #pagger .number_after a{
+	text-decoration: none;
+	color: rgb(161,59,207);
+}
+#pagger .number_before a:before{
+	content: "\00AB";
+	border: none;
+}
+#pagger .number_after a:after{
+	content: "\00BB";
+}
+

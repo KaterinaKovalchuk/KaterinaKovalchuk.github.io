@@ -1,0 +1,36 @@
+#menu{
+	background-color:rgb(166,77,255);
+	list-style-type: none;
+	width: 900px;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+#menu li{
+	float: left;
+	background-color:rgb(166,77,255);
+	color: white;
+	font-family: Impact;
+	text-transform: uppercase;
+	padding: 5px;
+	vertical-align: top;
+
+}
+#menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;		
+}
+#menu li a:hover{
+	background-color: rgb(238,238,238);
+	color: rgb(164,157,151);
+}
+#menu li:first-child{
+	padding-left: 40px;
+}
+#menu li:last-child{
+	padding-right: 50px;
+	padding-left: 120px;
+}

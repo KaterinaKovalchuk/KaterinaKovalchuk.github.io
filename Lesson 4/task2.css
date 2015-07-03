@@ -1,0 +1,35 @@
+div{
+	width: 900px;
+	height: 30px;
+	background-color:rgb(166,77,255);
+    top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#menu{
+	list-style-type: none;
+	
+}
+#menu li{
+	float: left;
+	font-family: Impact;
+	text-transform: uppercase;
+	padding: 5px;
+}
+#menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 6px;	
+}
+#menu li a:hover{
+	background-color: rgb(238,238,238);
+	color: rgb(164,157,151);
+	
+}
+#menu li:last-child{
+	float: right;
+	margin-right: 80px;
+}

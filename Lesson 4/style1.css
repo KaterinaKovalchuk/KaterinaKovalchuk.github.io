@@ -1,0 +1,27 @@
+#menu{
+	background-color:rgb(166,77,255);
+	list-style-type: none;
+	width: 900px;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+#menu li{
+	display: inline-block;
+	background-color:rgb(166,77,255);
+	color: white;
+	font-family: Impact;
+	text-transform: uppercase;
+	margin: 5px -1px;
+}
+#menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;		
+}
+#menu li a:hover{
+	background-color: rgb(238,238,238);
+	color: rgb(164,157,151);
+}
