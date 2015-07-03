@@ -1,0 +1,70 @@
+body{
+	width: 1400px;
+	margin: auto;
+	font-family: "Trebuchet MS";
+}
+.comment{
+	width: 1400px;
+	height: 315px;
+	background-image: url(Photo.png);
+}
+h2{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #3170a8;
+	text-align: center;
+	padding-top: 60px;
+}
+h2 span{
+	color: #ee8129;
+}
+.comment_girl{
+	width: 490px;
+	height: 99px;
+	float:left;
+	margin-left: 191px;
+}
+.comment_boy{
+	width: 490px;
+	height: 99px;
+	float:right;
+	margin-right: 189px;
+}
+.block{
+	background: white;
+	position: relative;
+	width: 360px;
+	height: 98px;
+	float: right;
+}
+.block::before{
+	content: ''; 
+    position: absolute;
+    left: -29px; 
+    top: 40px;
+    border: 15px solid transparent;
+    border-right: 15px solid white;
+}
+.name{
+	color: #3070a8;
+	float: left;
+	padding-left: 15px;
+}
+.desc{
+	color: #3070a8;
+	float: right;
+	padding-right: 15px;
+}
+hr{
+	border: 1px dashed #666666;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.block1, .block2{
+	font-size: 13px;
+	font-style: italic;
+}
+.block2{
+	padding-left: 15px;
+	padding-right: 15px;
+}
