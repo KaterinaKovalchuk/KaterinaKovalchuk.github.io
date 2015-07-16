@@ -1,0 +1,272 @@
+.header_main{
+	height: 160px;
+}
+.logo_header{
+	width: 181px;
+	min-width: 181px;
+	height: 108px;
+	margin:auto;
+	float: none;
+	border-bottom: 1px solid #2980b9;
+}
+.ABC{
+	width: 48px;
+	height: 48px;
+	font-size: 1.4em;
+	line-height: 48px;
+	margin:17px 0 10px 60px;
+}
+.logo_header p{
+	line-height: normal;
+	font-size: 1.3em;
+	clear: both;
+	margin-left: 5px;
+}
+.social_header{
+	width: 145px;
+	min-width: 145px;
+	margin: auto;
+	float: none;
+}
+.icons_header{
+	width: 145px;
+	min-width: 145px;
+	margin-top: 2px;
+}
+.icons_header p{
+	line-height: 40px;
+	margin-right: 5px;
+}
+.icons_header img{
+	margin-top: 8px;
+	float: none;
+}
+/*---------end .header_main-------------------*/
+.title{
+	width: 80%;
+	margin: auto;
+	float: none;
+}
+.title h1{
+	font-size: 2.5em;
+	float: none;
+	margin: 0;
+	padding-top: 39px;
+	text-align: center;
+}
+.title p{
+	font-size: 1em;
+	margin-top: 18px;
+	line-height: 28px;
+}
+.form{
+	width: 93%;
+	max-width: 300px;
+	left: 10px;
+	right: 10px;
+	top: 210px;
+	margin: auto;
+}
+.form h2{
+	font-size: 1.2em;
+}
+.submit{
+	margin-left: 60px;
+	font-size: 1.2em;
+}
+/*---------end .banner_main-------------------*/
+.university_main{
+	height: 681px;
+}
+.about_university {
+	width: 95%;
+	margin: auto;
+	float: none;
+}
+.about_university h2{
+	margin-top: 435px;
+	text-align: center;
+}
+.about_university p{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/*---------end .university_main-------------------*/
+.best_main{
+	height: 1426px;
+}
+.best h2{
+	text-align: center;
+	margin-top: 33px;
+}
+.environment{
+	width: 97%;
+	max-width: 291px;
+	margin: auto;
+	margin-top: 33px;
+	float: none;
+}
+.programs{
+	width: 97%;
+	max-width: 291px;
+	margin: auto;
+	float: none;
+}
+.teachers{
+	width: 97%;
+	max-width: 291px;
+	margin: auto;
+	float: none;
+}
+.view{
+	margin-bottom: 40px;
+}
+/*---------end .best_main-------------------*/
+.comment_main{
+	height: 505px;
+}
+.comment{
+	width: 100%;
+	margin: auto;
+}
+.comment_says{
+	margin: auto;
+}
+.says{
+	width: 90%;
+	height: 55px;
+	float: none;
+	margin: auto;
+	margin-top: 40px;
+}
+.says h2{
+	text-align: center;
+	margin:0;
+	float: none;
+}
+.pointer{
+	width: 90px;
+	height: 55px;
+	margin: auto;
+	margin-top: 10px;
+	float: none;
+}
+.pointer_right{
+	margin: auto;
+	float: right;
+}
+.pointer_left{
+	margin: auto;
+	float: left;
+}
+.student{
+	width: 80%;
+	height:250px;
+	margin: auto;
+	margin-top: 15px;
+	float: none;
+}
+.simvol_1{
+	text-align: left;
+}
+.text_comment{
+	text-align: justify;
+}
+.comment_amanda{
+	margin: auto;
+	margin-top: 15px;
+	text-align: right;
+}
+.simvol_2{
+	text-align: right;
+}
+.boy{
+	width: 90%;
+	margin: auto;
+	float: none;
+}
+.boy img{
+	top:384px;
+	right: 70px;
+}
+/*---------end .comment_main-------------------*/
+.started_main{
+	height: 241px;
+}
+.started{
+	position: relative;
+}
+button{
+	width: 92%;
+	max-width: 305px;
+	height: 130px;
+	margin: auto;
+	position: absolute;
+	top:60px;
+	left: 10px;
+	right: 10px;
+}
+button p{
+	font-size: 1.3em;
+	line-height: 32px;
+	float: none;
+	margin: 0;
+	text-align: center;
+}
+.point_right{
+	margin:auto;
+	float: none;
+	margin-top: 7px;
+}
+/*---------end .started_main-------------------*/
+.footer_main{
+	height: 315px;
+}
+.logo_footer{
+	width: 181px;
+	min-width: 181px;
+	height: 108px;
+	margin:auto;
+	float: none;
+	border:none;
+	border-bottom: 1px solid #2980b9;
+}
+.ABC_footer{
+	width: 48px;
+	height: 48px;
+	font-size: 1.4em;
+	line-height: 48px;
+	margin:17px 0 10px 60px;
+}
+.logo_footer p{
+	line-height: normal;
+	font-size: 1.3em;
+	clear: both;
+	margin-left: 5px;
+}
+.social_footer{
+	width: 250px;
+	min-width: 250px;
+	margin: auto;
+	float: none;
+}
+.icons_footer{
+	width: 145px;
+	min-width: 145px;
+	margin: auto;
+	margin-top: 2px;
+}
+.icons_footer p{
+	line-height: 20px;
+}
+.icons_footer img{
+	margin-top: 14px;
+	float: none;
+}
+.copy{
+margin:auto;
+text-align: center;
+	float: none;
+	margin-top: 25px;
+}
