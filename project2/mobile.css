@@ -23,14 +23,14 @@
 	margin-left: 5px;
 }
 .social_header{
-	width: 145px;
-	min-width: 145px;
+	width: 150px;
+	min-width: 150px;
 	margin: auto;
 	float: none;
 }
 .icons_header{
-	width: 145px;
-	min-width: 145px;
+	width: 150px;
+	min-width: 150px;
 	margin-top: 2px;
 }
 .icons_header p{
@@ -41,7 +41,6 @@
 	margin-top: 8px;
 	float: none;
 }
-/*---------end .header_main-------------------*/
 .title{
 	width: 80%;
 	margin: auto;
@@ -74,7 +73,6 @@
 	margin-left: 60px;
 	font-size: 1.2em;
 }
-/*---------end .banner_main-------------------*/
 .university_main{
 	height: 681px;
 }
@@ -91,12 +89,11 @@
 	margin-top: 10px;
 	text-align: center;
 }
-
-/*---------end .university_main-------------------*/
 .best_main{
-	height: 1426px;
+	height: 1446px;
 }
 .best h2{
+	font-size: 1.2em;
 	text-align: center;
 	margin-top: 33px;
 }
@@ -122,7 +119,6 @@
 .view{
 	margin-bottom: 40px;
 }
-/*---------end .best_main-------------------*/
 .comment_main{
 	height: 505px;
 }
@@ -190,7 +186,6 @@
 	top:384px;
 	right: 70px;
 }
-/*---------end .comment_main-------------------*/
 .started_main{
 	height: 241px;
 }
@@ -199,7 +194,7 @@
 }
 button{
 	width: 92%;
-	max-width: 305px;
+	max-width: 300px;
 	height: 130px;
 	margin: auto;
 	position: absolute;
@@ -219,7 +214,6 @@ button p{
 	float: none;
 	margin-top: 7px;
 }
-/*---------end .started_main-------------------*/
 .footer_main{
 	height: 315px;
 }
@@ -265,8 +259,8 @@ button p{
 	float: none;
 }
 .copy{
-margin:auto;
-text-align: center;
+	margin:auto;
+	text-align: center;
 	float: none;
 	margin-top: 25px;
 }

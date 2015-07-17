@@ -34,7 +34,7 @@ body{
 	line-height: 53px;
 }
 .logo_header p{
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	font-size: 1.6em;
 	color: #FFFFFF;
 	margin: 0;
@@ -52,7 +52,7 @@ body{
 }
 .icons_header p{
 	font-size: 0.8em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	color:#FFFFFF;
 	margin: 0;
 	padding: 0;
@@ -92,8 +92,7 @@ a{
 }
 .title h1{
 	font-size: 3.1em;
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-family: "HelveticaBold", Arial, sans-serif;
 	color: #FFFFFF;
 	margin: 0;
 	margin-top: 70px;
@@ -103,7 +102,7 @@ a{
 }
 .title p{
 	font-size: 1.8em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	color: #FFFFFF;
 	margin: 0;
 	margin-top: 25px;
@@ -123,7 +122,7 @@ a{
 }
 .form h2{
 	font-size: 1.5em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaLight", Arial, sans-serif;
 	color: #333333;
 	text-align: center;
 	text-transform: uppercase;
@@ -133,6 +132,10 @@ a{
 select{
 	width: 89%;
 	height: 36px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance:none;
+	background: url(image/select.png) no-repeat  97% center;
 	background-color: #f2f2f2;
 	margin-left: 20px;
 	margin-top: 29px;
@@ -140,7 +143,7 @@ select{
 	font-size: 0.9em;
 	border: none;
 	box-shadow: 0px 0px 5px 0px #e6e6e6 inset;
-	font-family:  Helvetica, Arial, sans-serif;
+	font-family:  "HelveticaRegular", Arial, sans-serif;
 }
 input{
 	width: 85%;
@@ -149,7 +152,7 @@ input{
 	margin-left: 20px;
 	margin-top: 10px;
 	font-size: 0.9em;
-	font-family:  Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	border: 0;
 	padding: 0;
 	padding-left: 15px;
@@ -167,7 +170,7 @@ input{
 	border: none;
 	outline: none;
 	box-shadow: 0px 0px 5px 0px #e6e6e6 inset;
-	font-family:  Helvetica, Arial, sans-serif;
+	font-family:  "HelveticaRegular", Arial, sans-serif;
 }
 .submit{
 	width: 59%;
@@ -177,7 +180,7 @@ input{
 	background-color: #e74c3c;
 	color: #FFFFFF;
 	font-size: 1.6em;
-	font-family:  Helvetica, Arial, sans-serif;
+	font-family: "HelveticaLight", Arial, sans-serif;
 	cursor: pointer;
 	border: none;
 	outline: none;
@@ -200,15 +203,14 @@ input{
 	position: relative;
 }
 .about_university{
-	width: 60%;
+	width: 55%;
 	margin:0;
 	padding: 0;
 	float: left;
 }
 .about_university h2{
 	font-size: 0.9em;
-	font-weight: bold;
-	font-family:  Helvetica, Arial, sans-serif;
+	font-family:  "HelveticaBold", Arial, sans-serif;
 	margin: 0;
 	margin-top: 28px;
 	margin-left: 5px;
@@ -217,7 +219,7 @@ input{
 }
 .about_university p{
 	font-size: 0.8em;
-	font-family:  Helvetica, Arial, sans-serif;
+	font-family:  "HelveticaRegular", Arial, sans-serif;
 	color: #333333;
 	margin: 0;
 	margin-top: 23px;
@@ -240,7 +242,7 @@ input{
 }
 .best h2{
 	font-size: 1.5em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	color: #3498db;
 	text-transform: uppercase;
 	margin: 0;
@@ -257,8 +259,7 @@ input{
 }
 .environment h2{
 	font-size: 0.9em;
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-family: "HelveticaBold", Arial, sans-serif;
 	color: #333333;
 	text-align: center;
 	margin: 0;
@@ -266,7 +267,7 @@ input{
 }
 .environment p{
 	font-size: 0.8em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	color: #333333;
 	text-align: center;
 	margin: 0;
@@ -283,8 +284,7 @@ input{
 }
 .programs h2{
 	font-size: 0.9em;
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-family: "HelveticaBold", Arial, sans-serif;
 	color: #333333;
 	text-align: center;
 	margin: 0;
@@ -292,7 +292,7 @@ input{
 }
 .programs p{
 	font-size: 0.8em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	color: #333333;
 	text-align: center;
 	margin: 0;
@@ -309,8 +309,7 @@ input{
 }
 .teachers h2{
 	font-size: 0.9em;
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-family: "HelveticaBold", Arial, sans-serif;
 	color: #333333;
 	text-align: center;
 	margin: 0;
@@ -318,7 +317,7 @@ input{
 }
 .teachers p{
 	font-size: 0.8em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	color: #333333;
 	text-align: center;
 	margin: 0;
@@ -336,7 +335,7 @@ input{
 	text-align: center;
 	color: #333333;
 	font-size: 0.8em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	text-transform: uppercase;
 	line-height: 53px;
 }
@@ -371,7 +370,7 @@ input{
 }
 .says h2{
 	font-size: 1.3em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	text-transform: uppercase;
 	color: #3498db;
 	margin: 0;
@@ -436,8 +435,7 @@ background-image: url(image/right_hover.png);
 }
 .simvol_1{
 	font-size: 3.1em;
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-family: "HelveticaBold", Arial, sans-serif;
 	color: #f2f2f2;
 	position: relative;
 	margin: 0;
@@ -445,7 +443,7 @@ background-image: url(image/right_hover.png);
 }
 .text_comment{
 	font-size: 0.8em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	color: #333333;
 	margin: 0;
 	text-align: justify;
@@ -453,8 +451,7 @@ background-image: url(image/right_hover.png);
 }
 .comment_amanda{
 	font-size: 0.8em;
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-family: "HelveticaBold", Arial, sans-serif;
 	text-transform: uppercase;
 	color: #333333;
 	margin: 0;
@@ -463,8 +460,7 @@ background-image: url(image/right_hover.png);
 }
 .simvol_2{
 	font-size: 3.1em;
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-family: "HelveticaBold", Arial, sans-serif;
 	color: #f2f2f2;
 	position: relative;
 	margin: 0;
@@ -508,7 +504,7 @@ button:hover{
 }
 button p{
 	font-size: 1.5em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	margin:0;
@@ -566,7 +562,7 @@ button p{
 	line-height: 63px;
 }
 .logo_footer p{
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	font-size: 1.6em;
 	color: #FFFFFF;
 	margin: 0;
@@ -584,7 +580,7 @@ button p{
 }
 .icons_footer p{
 	font-size: 0.8em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	color:#FFFFFF;
 	margin: 0;
 	margin-top: 15px;
@@ -599,7 +595,7 @@ button p{
 }
 .copy{
 	font-size: 0.8em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	color:#FFFFFF;
 	margin: 0;
 	padding: 0;
