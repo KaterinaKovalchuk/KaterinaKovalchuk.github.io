@@ -158,7 +158,12 @@ input{
 	padding-left: 15px;
 	box-shadow: 0px 0px 5px 0px #e6e6e6 inset;
 }
-
+input::-webkit-input-placeholder{ 
+	color: #333333; 
+}
+input:-moz-placeholder{
+	color: #333333; 
+}
 input::-webkit-input-placeholder{
 	opacity: 1; 
 	transition: opacity 0.3s ease;
@@ -237,6 +242,12 @@ input:focus:-ms-input-placeholder{
 .adress:focus:-ms-input-placeholder{
 	opacity: 0; 
 	transition: opacity 0.3s ease;
+}
+.adress::-webkit-input-placeholder{ 
+	color: #333333; 
+}
+.adress:-moz-placeholder{
+	color: #333333; 
 }
 .submit{
 	width: 59%;
