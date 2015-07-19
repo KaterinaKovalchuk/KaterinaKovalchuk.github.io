@@ -10,10 +10,6 @@
 	border-bottom: 1px solid #2980b9;
 }
 .ABC{
-	width: 48px;
-	height: 48px;
-	font-size: 1.4em;
-	line-height: 48px;
 	margin:17px 0 10px 60px;
 }
 .logo_header p{
@@ -21,6 +17,7 @@
 	font-size: 1.3em;
 	clear: both;
 	margin-left: 5px;
+	padding: 0px;
 }
 .social_header{
 	width: 150px;
@@ -207,6 +204,8 @@ button p{
 	line-height: 32px;
 	float: none;
 	margin: 0;
+	margin-left: 52px;
+	margin-right: 42px;
 	text-align: center;
 }
 .point_right{
@@ -227,10 +226,10 @@ button p{
 	border-bottom: 1px solid #2980b9;
 }
 .ABC_footer{
-	width: 48px;
-	height: 48px;
-	font-size: 1.4em;
-	line-height: 48px;
+	width: 49px;
+	height: 49px;
+	font-size: 1.3em;
+	line-height: 49px;
 	margin:17px 0 10px 60px;
 }
 .logo_footer p{
@@ -238,6 +237,7 @@ button p{
 	font-size: 1.3em;
 	clear: both;
 	margin-left: 5px;
+	padding:0;
 }
 .social_footer{
 	width: 250px;

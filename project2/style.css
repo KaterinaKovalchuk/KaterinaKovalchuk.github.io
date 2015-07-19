@@ -19,26 +19,26 @@ body{
 	float: left;
 }
 .ABC{
-	width: 53px;
-    height: 53px;
+	width: 49px;
+    height: 49px;
     border-radius: 50px;
     border: 2px solid #FFFFFF;
-	margin-top: 11px;
+	margin-top: 13px;
 	margin-left: 5px;
 	margin-right: 14px;
 	float: left;
 	text-align: center;
 	color: #FFFFFF;
-	font-size: 1.6em;
-	font-family: "Myriad Pro";
-	line-height: 53px;
+	font-size: 1.3em;
+	font-family: "HelveticaRegular", Arial, sans-serif;
+	line-height: 49px;
 }
 .logo_header p{
 	font-family: "HelveticaRegular", Arial, sans-serif;
 	font-size: 1.6em;
 	color: #FFFFFF;
 	margin: 0;
-	line-height: 78px;
+	padding-top:25px;
 	text-transform: uppercase;
 }
 .social_header{
@@ -158,6 +158,40 @@ input{
 	padding-left: 15px;
 	box-shadow: 0px 0px 5px 0px #e6e6e6 inset;
 }
+
+input::-webkit-input-placeholder{
+	opacity: 1; 
+	transition: opacity 0.3s ease;
+}
+input::-moz-placeholder{
+	opacity: 1; 
+	transition: opacity 0.3s ease;
+}
+input:-moz-placeholder{
+	opacity: 1; 
+	transition: opacity 0.3s ease;
+}
+input:-ms-input-placeholder{
+	opacity: 1; 
+	transition: opacity 0.3s ease;
+}
+input:focus::-webkit-input-placeholder{
+	opacity: 0; 
+	transition: opacity 0.3s ease;
+}
+input:focus::-moz-placeholder{
+	opacity: 0; 
+	transition: opacity 0.3s ease;
+}
+input:focus:-moz-placeholder{
+	opacity: 0; 
+	transition: opacity 0.3s ease;
+}
+input:focus:-ms-input-placeholder{
+	opacity: 0; 
+	transition: opacity 0.3s ease;
+}
+
 .adress{
 	width: 85%;
 	height: 65px;
@@ -171,6 +205,38 @@ input{
 	outline: none;
 	box-shadow: 0px 0px 5px 0px #e6e6e6 inset;
 	font-family:  "HelveticaRegular", Arial, sans-serif;
+}
+.adress::-webkit-input-placeholder{
+	opacity: 1; 
+	transition: opacity 0.3s ease;
+}
+.adress::-moz-placeholder{
+	opacity: 1; 
+	transition: opacity 0.3s ease;
+}
+.adress:-moz-placeholder{
+	opacity: 1; 
+	transition: opacity 0.3s ease;
+}
+.adress:-ms-input-placeholder{
+	opacity: 1; 
+	transition: opacity 0.3s ease;
+}
+.adress:focus::-webkit-input-placeholder{
+	opacity: 0; 
+	transition: opacity 0.3s ease;
+}
+.adress:focus::-moz-placeholder{
+	opacity: 0; 
+	transition: opacity 0.3s ease;
+}
+.adress:focus:-moz-placeholder{
+	opacity: 0; 
+	transition: opacity 0.3s ease;
+}
+.adress:focus:-ms-input-placeholder{
+	opacity: 0; 
+	transition: opacity 0.3s ease;
 }
 .submit{
 	width: 59%;
@@ -558,7 +624,7 @@ button p{
 	text-align: center;
 	color: #FFFFFF;
 	font-size: 1.6em;
-	font-family: "Myriad Pro";
+	font-family: "HelveticaRegular", Arial, sans-serif;
 	line-height: 63px;
 }
 .logo_footer p{
