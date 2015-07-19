@@ -454,9 +454,9 @@ input:focus:-ms-input-placeholder{
     height: 37px;
     border-radius: 50px;
     border: 1px solid #e6e6e6;
-    background: url(image/right.png);
+    background: url(image/left_right.png);
     background-repeat: no-repeat;
-    background-position: 50% 10px;
+    background-position: 155% 10px;
     display: block;
     float: right;
     margin-top: 32px;
@@ -468,9 +468,9 @@ input:focus:-ms-input-placeholder{
     height: 37px;
     border-radius: 50px;
     border: 1px solid #e6e6e6;
-    background: url(image/left.png);
+    background: url(image/left_right.png);
     background-repeat: no-repeat;
-    background-position: 50% 10px;
+    background-position: -55% 10px;
     display: block;
     float: right;
     margin-top: 32px;
@@ -478,17 +478,20 @@ input:focus:-ms-input-placeholder{
     text-align: center;
     font-size: 1em;
 }
-.pointer_left:hover, .pointer_right:hover {
+.pointer_left:hover{
 	background-color: #f2f2f2;
 	background-repeat: no-repeat;
-	background-position: 50% 10px;
+	background-position: -55% 10px;
 	cursor: pointer;
 }
-.pointer_left:hover{
-background-image: url(image/left_hover.png);
-}
 .pointer_right:hover{
-background-image: url(image/right_hover.png);
+	background-color: #f2f2f2;
+	background-repeat: no-repeat;
+	background-position: 155% 10px;
+	cursor: pointer;
+}
+.pointer_left:hover, .pointer_right:hover{
+background-image: url(image/left_fight_hover.png);
 }
 .comment_student{
 	width: 100%;
