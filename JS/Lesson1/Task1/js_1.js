@@ -3,7 +3,7 @@ var name;
 var developer; 
 
 //name initialization
-var name =" Sergey";
+var name = "Sergey";
 
 //copy data
 var developer = name; 
