@@ -1,5 +1,12 @@
-var name; // variable declaration.
-var developer; // variable declaration.
-var name="Sergey"; //name initialization
-var developer=name; //copy data
-alert(developer); //display result
+// variable declaration.
+var name;
+var developer; 
+
+//name initialization
+var name =" Sergey";
+
+//copy data
+var developer = name; 
+
+//display result
+alert(developer);
