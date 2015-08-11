@@ -1,4 +1,7 @@
+//variable declaration. data from user
 var login = prompt('Логин','');
+
+//running script
 if (login == 'admin'){
 var password = prompt('Пароль', '');
 	if (password == 'passw0rd'){
